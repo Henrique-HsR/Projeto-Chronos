@@ -5,3 +5,76 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+
+:root {
+    --container: 1000px;
+
+    --cor1: #0b1840;
+    --cor2: #636b73;
+    --cor3: #bdbfaa;
+    --cor0: #f7f5f3;
+
+    --font1: 'Noto Sans', sans-serif;
+    --font2: 'Nunito', sans-serif;
+    --font3: 'Quicksand', sans-serif;
+    --font4: 'Arima Madurai', cursive;
+    --font5: 'Baloo 2', cursive;
+    --font6: 'Comfortaa', cursive;
+}
+
+body {
+    background-color: #d7d9cc;
+    color: var(--cor1);
+    font-family: var(--font1);
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+header, footer {
+    background-color: #f7f5f3;
+    padding: 16px;
+}
+
+main.container {
+    width: 70vw;
+    background-color: #f7f5f3;
+    margin: auto;
+    height: 70vh;
+    border-radius: 10px;
+    margin-top: 16px;
+    
+}
+
+header > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+    gap: 200px;
+}
+
+header img {
+    display: flex;
+    width: 4.375rem;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+menu > ul > li{
+    display: inline-flex;
+    list-style-type: none;
+}
