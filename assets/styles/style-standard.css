@@ -114,7 +114,7 @@ button {
     border: none;
     border-radius: 8px;
     
-    background: url(/assets/images/moon.svg) center center no-repeat;
+    background: url(/assets/images/moon.png) center center no-repeat;
 }
 
 /*dark theme*/
@@ -164,7 +164,7 @@ button.dark {
     border: none;
     border-radius: 8px;
     
-    background: url(/assets/images/sun.svg) center center no-repeat;
+    background: url(/assets/images/sun.png) center center no-repeat;
 }
 
 /*body {
