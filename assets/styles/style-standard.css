@@ -153,6 +153,10 @@ a.dark{
     font: bold 1em var(--tittle-font);
 }
 
+a.dark:hover {
+    color: var(--cor3);
+}
+
 button.dark {
     width: 50px;
     height: 30px;
