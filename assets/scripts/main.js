@@ -27,7 +27,7 @@ function createPage(){
                 <li><a href="#">Ajuda</a></li>
             </ul>
         </menu>
-        <button onclick="toggleDark()"></button>
+        <img class="btn-moon" src="assets/images/moon.svg" onclick="toggleDark()">
     </div>
 </header>
 <main class="light">
@@ -60,7 +60,7 @@ function CreatePageDark(){
                 <li><a class="dark" href="#">Ajuda</a></li>
             </ul>
         </menu>
-        <button class="dark" onclick="toggleLight()"></button>
+        <img class="btn-sun" src="assets/images/sun.svg" onclick="toggleLight()">
     </div>
 </header>
 <main class="dark">

@@ -107,14 +107,15 @@ a:hover {
     color: var(--cor3);
 }
 
-button {
-    width: 50px;
-    height: 30px;
+img.btn-moon {
+    width: 1.2em;
     cursor: pointer;
     border: none;
     border-radius: 8px;
-    
-    background: url(/assets/images/moon.png) center center no-repeat;
+}
+
+img.btn-moon:hover {
+    background-color: rgba(11, 24, 64, 0.1);
 }
 
 /*dark theme*/
@@ -157,14 +158,15 @@ a.dark:hover {
     color: var(--cor3);
 }
 
-button.dark {
-    width: 50px;
-    height: 30px;
+img.btn-sun {
+    width: 1.2em;
     cursor: pointer;
     border: none;
     border-radius: 8px;
-    
-    background: url(/assets/images/sun.png) center center no-repeat;
+}
+
+img.btn-sun:hover {
+    background-color: rgba(189, 191, 170, 0.2);
 }
 
 /*body {
